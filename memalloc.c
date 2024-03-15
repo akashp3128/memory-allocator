@@ -150,7 +150,7 @@ void *malloc(size_t size)
     }
 
     // Use the allocated memory
-    strcpy((char*)memory_block, "sweet it works!");
+    strcpy((char*)memory_block, "memory allocated!");
 
     // Print the content of the allocated memory
     printf("Allocated memory content: %s\n", (char*)memory_block);
